@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="16fde0f5-ef05-4d7f-9692-067da57cadb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-01-ioc1/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-01-ioc1/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-01-ioc1/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-01-ioc1/target/test-classes/MyTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -68,7 +72,14 @@
       <recent name="com.kuang.dao" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MyTest">
+    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-02-hellospring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="spring-01-ioc1" />
@@ -79,6 +90,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.MyTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586425001977</updated>
       <workItem from="1586425003320" duration="1198000" />
-      <workItem from="1586668962439" duration="2103000" />
+      <workItem from="1586668962439" duration="5123000" />
     </task>
     <servers />
   </component>
@@ -101,37 +113,45 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1586669854471">
+    <state x="1032" y="181" key="#Project_Structure" timestamp="1586673102541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586669854471" />
+    <state x="1032" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586673102541" />
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1586672835297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586672835297" />
     <state x="1017" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586669284448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1017" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586669284448" />
-    <state width="914" height="271" key="GridCell.Tab.0.bottom" timestamp="1586670309826">
+    <state width="914" height="273" key="GridCell.Tab.0.bottom" timestamp="1586674386442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586670309826" />
-    <state width="914" height="271" key="GridCell.Tab.0.center" timestamp="1586670309825">
+    <state width="914" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586674386442" />
+    <state width="914" height="273" key="GridCell.Tab.0.center" timestamp="1586674386442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586670309825" />
-    <state width="914" height="271" key="GridCell.Tab.0.left" timestamp="1586670309825">
+    <state width="914" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586674386442" />
+    <state width="914" height="273" key="GridCell.Tab.0.left" timestamp="1586674386441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586670309825" />
-    <state width="914" height="271" key="GridCell.Tab.0.right" timestamp="1586670309826">
+    <state width="914" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586674386441" />
+    <state width="914" height="273" key="GridCell.Tab.0.right" timestamp="1586674386442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586670309826" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1586670022185">
+    <state width="914" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586674386442" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586674311782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1586670022185" />
-    <state x="669" y="228" key="new project wizard" timestamp="1586425561495">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1586674311782" />
+    <state x="669" y="221" key="new project wizard" timestamp="1586672401285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="228" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586425561495" />
+    <state x="669" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586672401285" />
+    <state x="1114" y="212" key="spring file set editor" timestamp="1586673906350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1114" y="212" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1586673906350" />
   </component>
 </project>
