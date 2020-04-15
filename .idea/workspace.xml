@@ -4,6 +4,7 @@
     <list default="true" id="16fde0f5-ef05-4d7f-9692-067da57cadb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,14 @@
       <recent name="D:\java\idea-workspace\spring-study\spring-03-ioc2\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.test1">
+  <component name="RunManager" selected="Application.MyTest (1)">
+    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-06-anno" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="spring-03-ioc2" />
@@ -85,13 +93,6 @@
     <configuration name="MyTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="spring-04-di" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-01-ioc1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest (1)" />
         <item itemvalue="JUnit.MyTest.test1" />
         <item itemvalue="JUnit.MyTest.test2" />
         <item itemvalue="Application.MyTest (3)" />
         <item itemvalue="Application.MyTest (2)" />
-        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +141,7 @@
       <workItem from="1586668962439" duration="8648000" />
       <workItem from="1586841685975" duration="1792000" />
       <workItem from="1586911927913" duration="2321000" />
-      <workItem from="1586927224907" duration="8437000" />
+      <workItem from="1586927224907" duration="10025000" />
     </task>
     <servers />
   </component>
@@ -152,30 +153,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586944577053" />
-    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1586944475555">
+    <state x="1149" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586948267183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586944475555" />
+    <state x="1149" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586948267183" />
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1586948926261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586948926261" />
     <state x="1017" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586669284448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1017" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586669284448" />
-    <state width="914" height="272" key="GridCell.Tab.0.bottom" timestamp="1586947022242">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1586949755633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586947022242" />
-    <state width="914" height="272" key="GridCell.Tab.0.center" timestamp="1586947022242">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586949755633" />
+    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1586949755633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586947022242" />
-    <state width="914" height="272" key="GridCell.Tab.0.left" timestamp="1586947022242">
+    <state width="914" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586949755633" />
+    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1586949755633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586947022242" />
-    <state width="914" height="272" key="GridCell.Tab.0.right" timestamp="1586947022242">
+    <state width="914" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586949755633" />
+    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1586949755633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586947022242" />
+    <state width="914" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586949755633" />
     <state width="914" height="338" key="GridCell.Tab.1.bottom" timestamp="1586678971821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -196,25 +201,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="880" y="101" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586912256382" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1586947676260">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586948907834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1586947676260" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1586948907834" />
     <state x="1127" y="278" width="626" height="490" key="find.popup" timestamp="1586912100450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1127" y="278" width="626" height="490" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586912100450" />
-    <state x="669" y="221" key="new project wizard" timestamp="1586942765029">
+    <state x="669" y="221" key="new project wizard" timestamp="1586948248317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586942765029" />
+    <state x="669" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586948248317" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586944594605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586944594605" />
-    <state x="1114" y="212" key="spring file set editor" timestamp="1586944502004">
+    <state x="1114" y="212" key="spring file set editor" timestamp="1586948287138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1114" y="212" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1586944502004" />
+    <state x="1114" y="212" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1586948287138" />
   </component>
 </project>
