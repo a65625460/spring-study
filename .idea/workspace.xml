@@ -4,6 +4,7 @@
     <list default="true" id="16fde0f5-ef05-4d7f-9692-067da57cadb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -73,17 +74,17 @@
       <recent name="D:\java\idea-workspace\spring-study\spring-03-ioc2\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyTest (2)">
-    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyTest.test1">
+    <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-02-hellospring" />
+      <module name="spring-03-ioc2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-03-ioc2" />
+      <module name="spring-04-di" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,11 +96,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-05-Autowired" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-04-di" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.test1" />
+        <item itemvalue="JUnit.MyTest.test2" />
+        <item itemvalue="Application.MyTest (3)" />
         <item itemvalue="Application.MyTest (2)" />
         <item itemvalue="Application.MyTest" />
-        <item itemvalue="Application.MyTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +137,10 @@
       <option name="presentableId" value="Default" />
       <updated>1586425001977</updated>
       <workItem from="1586425003320" duration="1198000" />
-      <workItem from="1586668962439" duration="8480000" />
+      <workItem from="1586668962439" duration="8648000" />
+      <workItem from="1586841685975" duration="1792000" />
+      <workItem from="1586911927913" duration="2321000" />
+      <workItem from="1586927224907" duration="8437000" />
     </task>
     <servers />
   </component>
@@ -122,65 +148,73 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="181" key="#Project_Structure" timestamp="1586676386978">
+    <state x="1032" y="181" key="#Project_Structure" timestamp="1586944577053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586676386978" />
-    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1586676368473">
+    <state x="1032" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586944577053" />
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1586944475555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586676368473" />
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586944475555" />
     <state x="1017" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586669284448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1017" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586669284448" />
-    <state width="914" height="275" key="GridCell.Tab.0.bottom" timestamp="1586678809437">
+    <state width="914" height="272" key="GridCell.Tab.0.bottom" timestamp="1586947022242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586678809437" />
-    <state width="914" height="275" key="GridCell.Tab.0.center" timestamp="1586678809436">
+    <state width="914" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586947022242" />
+    <state width="914" height="272" key="GridCell.Tab.0.center" timestamp="1586947022242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586678809436" />
-    <state width="914" height="275" key="GridCell.Tab.0.left" timestamp="1586678809436">
+    <state width="914" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586947022242" />
+    <state width="914" height="272" key="GridCell.Tab.0.left" timestamp="1586947022242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586678809436" />
-    <state width="914" height="275" key="GridCell.Tab.0.right" timestamp="1586678809436">
+    <state width="914" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586947022242" />
+    <state width="914" height="272" key="GridCell.Tab.0.right" timestamp="1586947022242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586678809436" />
-    <state width="914" height="338" key="GridCell.Tab.1.bottom" timestamp="1586676799337">
+    <state width="914" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586947022242" />
+    <state width="914" height="338" key="GridCell.Tab.1.bottom" timestamp="1586678971821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586676799337" />
-    <state width="914" height="338" key="GridCell.Tab.1.center" timestamp="1586676799337">
+    <state width="914" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586678971821" />
+    <state width="914" height="338" key="GridCell.Tab.1.center" timestamp="1586678971820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586676799337" />
-    <state width="914" height="338" key="GridCell.Tab.1.left" timestamp="1586676799337">
+    <state width="914" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586678971820" />
+    <state width="914" height="338" key="GridCell.Tab.1.left" timestamp="1586678971820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586676799337" />
-    <state width="914" height="338" key="GridCell.Tab.1.right" timestamp="1586676799337">
+    <state width="914" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586678971820" />
+    <state width="914" height="338" key="GridCell.Tab.1.right" timestamp="1586678971820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586676799337" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1586678637753">
+    <state width="914" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586678971820" />
+    <state x="880" y="101" key="SettingsEditor" timestamp="1586912256382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1586678637753" />
-    <state x="669" y="221" key="new project wizard" timestamp="1586676203524">
+    <state x="880" y="101" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586912256382" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586947676260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586676203524" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586677821781">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1586947676260" />
+    <state x="1127" y="278" width="626" height="490" key="find.popup" timestamp="1586912100450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586677821781" />
-    <state x="1114" y="212" key="spring file set editor" timestamp="1586678781417">
+    <state x="1127" y="278" width="626" height="490" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586912100450" />
+    <state x="669" y="221" key="new project wizard" timestamp="1586942765029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1114" y="212" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1586678781417" />
+    <state x="669" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586942765029" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586944594605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586944594605" />
+    <state x="1114" y="212" key="spring file set editor" timestamp="1586944502004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1114" y="212" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1586944502004" />
   </component>
 </project>
