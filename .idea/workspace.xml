@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16fde0f5-ef05-4d7f-9692-067da57cadb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -22,8 +23,27 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
+  </component>
+  <component name="DependenciesAnalyzeManager">
+    <option name="forwardDirection" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,38 +78,32 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowModule Dependencies.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/kuang/demo03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-11-transcation/src/main/java/com/kuang/mapper" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kuang.mapper" />
+      <recent name="com.kuang.pojo" />
       <recent name="com.kuang.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java\idea-workspace\spring-study\spring-08-proxy\src\main\java\com\kuang\demo03" />
-      <recent name="D:\java\idea-workspace\spring-study\spring-03-ioc2\src\main\resources" />
+      <recent name="D:\java\idea-workspace\spring-study\spring-11-transcation\src\main\java\com\kuang\mapper" />
+      <recent name="D:\java\idea-workspace\spring-study\spring-11-transcation\src\main\resources" />
+      <recent name="D:\java\idea-workspace\spring-study\spring-11-transaction\src\main\java\com\kuang\mapper" />
+      <recent name="D:\java\idea-workspace\spring-study\spring-11-transaction\src\main\resources" />
+      <recent name="D:\java\idea-workspace\spring-study\spring-10-mybatis\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyTest (1)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kuang.demo02.Client" />
-      <module name="spring-08-proxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kuang.demo02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyTest">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kuang.demo03.Client" />
       <module name="spring-08-proxy" />
@@ -116,19 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kuang.demo01.Client" />
-      <module name="spring-08-proxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kuang.demo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="spring-09-aop" />
@@ -136,13 +137,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-11-transcation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-10-mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.MyTest" />
+      <item itemvalue="Application.MyTest (1)" />
+      <item itemvalue="JUnit.MyTest.test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="JUnit.MyTest.test" />
         <item itemvalue="Application.MyTest (1)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +186,7 @@
       <workItem from="1586841685975" duration="1792000" />
       <workItem from="1586911927913" duration="2321000" />
       <workItem from="1586927224907" duration="11972000" />
-      <workItem from="1586997443575" duration="10075000" />
+      <workItem from="1586997443575" duration="20916000" />
     </task>
     <servers />
   </component>
@@ -169,38 +194,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="181" key="#Project_Structure" timestamp="1587022400298">
+    <state x="1143" y="187" key="#MyTest" timestamp="1587032832767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587022400298" />
+    <state x="1143" y="187" key="#MyTest/0.0.1920.1040@0.0.1920.1040" timestamp="1587032832767" />
+    <state x="1032" y="181" key="#Project_Structure" timestamp="1587032433825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587032433825" />
+    <state x="828" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587034390914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587034390914" />
     <state x="1149" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586948267183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1149" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586948267183" />
-    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1587022320798">
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1587033294351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587022320798" />
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587033294351" />
+    <state x="1062" y="204" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587032174960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1062" y="204" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587032174960" />
     <state x="1017" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586669284448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1017" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586669284448" />
-    <state width="914" height="274" key="GridCell.Tab.0.bottom" timestamp="1587024424020">
+    <state x="1170" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587030427462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587024424020" />
-    <state width="914" height="274" key="GridCell.Tab.0.center" timestamp="1587024424020">
+    <state x="1170" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587030427462" />
+    <state width="914" height="274" key="GridCell.Tab.0.bottom" timestamp="1587035410890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587024424020" />
-    <state width="914" height="274" key="GridCell.Tab.0.left" timestamp="1587024424020">
+    <state width="914" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587035410890" />
+    <state width="914" height="274" key="GridCell.Tab.0.center" timestamp="1587035410890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587024424020" />
-    <state width="914" height="274" key="GridCell.Tab.0.right" timestamp="1587024424020">
+    <state width="914" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587035410890" />
+    <state width="914" height="274" key="GridCell.Tab.0.left" timestamp="1587035410890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587024424020" />
+    <state width="914" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587035410890" />
+    <state width="914" height="274" key="GridCell.Tab.0.right" timestamp="1587035410890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587035410890" />
     <state width="914" height="338" key="GridCell.Tab.1.bottom" timestamp="1586678971821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -217,29 +258,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="914" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586678971820" />
-    <state x="880" y="101" key="SettingsEditor" timestamp="1586912256382">
+    <state x="880" y="101" key="SettingsEditor" timestamp="1587034722123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="880" y="101" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586912256382" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1587024544798">
+    <state x="880" y="101" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587034722123" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1587032616721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1587024544798" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1587032616721" />
     <state x="1127" y="278" width="626" height="490" key="find.popup" timestamp="1586912100450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1127" y="278" width="626" height="490" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586912100450" />
-    <state x="669" y="221" key="new project wizard" timestamp="1587021828048">
+    <state x="606" y="401" key="new project wizard" timestamp="1587032451237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587021828048" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1587023508992">
+    <state x="606" y="401" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587032451237" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1587034751585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587023508992" />
-    <state x="1114" y="212" key="spring file set editor" timestamp="1587022449410">
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587034751585" />
+    <state x="1114" y="212" key="spring file set editor" timestamp="1587032643813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1114" y="212" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1587022449410" />
+    <state x="1114" y="212" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1587032643813" />
   </component>
 </project>
