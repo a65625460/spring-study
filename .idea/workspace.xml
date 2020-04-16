@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-06-anno/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-06-anno/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-07-appconfig/target/classes/com/kuang/config/KuangConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-07-appconfig/target/classes/com/kuang/config/KuangConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-03-ioc2/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/kuang/demo03" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,20 +73,59 @@
       <recent name="com.kuang.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\idea-workspace\spring-study\spring-08-proxy\src\main\java\com\kuang\demo03" />
       <recent name="D:\java\idea-workspace\spring-study\spring-03-ioc2\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyTest">
-    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-06-anno" />
+  <component name="RunManager" selected="Application.Client (3)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kuang.demo02.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.demo02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-04-di" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kuang.demo03.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.demo03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kuang.demo04.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.demo04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kuang.demo01.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,33 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-05-Autowired" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-04-di" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.MyTest" />
-        <item itemvalue="Application.MyTest (1)" />
-        <item itemvalue="JUnit.MyTest.test1" />
-        <item itemvalue="JUnit.MyTest.test2" />
-        <item itemvalue="Application.MyTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +161,8 @@
       <workItem from="1586668962439" duration="8648000" />
       <workItem from="1586841685975" duration="1792000" />
       <workItem from="1586911927913" duration="2321000" />
-      <workItem from="1586927224907" duration="11665000" />
+      <workItem from="1586927224907" duration="11972000" />
+      <workItem from="1586997443575" duration="6375000" />
     </task>
     <servers />
   </component>
@@ -157,30 +178,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1149" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586948267183" />
-    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1586950047924">
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1587006663864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586950047924" />
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587006663864" />
     <state x="1017" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586669284448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1017" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586669284448" />
-    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1586951014154">
+    <state width="914" height="274" key="GridCell.Tab.0.bottom" timestamp="1587006430856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586951014154" />
-    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1586951014154">
+    <state width="914" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587006430856" />
+    <state width="914" height="274" key="GridCell.Tab.0.center" timestamp="1587006430856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586951014154" />
-    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1586951014154">
+    <state width="914" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587006430856" />
+    <state width="914" height="274" key="GridCell.Tab.0.left" timestamp="1587006430856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586951014154" />
-    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1586951014154">
+    <state width="914" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587006430856" />
+    <state width="914" height="274" key="GridCell.Tab.0.right" timestamp="1587006430856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586951014154" />
+    <state width="914" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587006430856" />
     <state width="914" height="338" key="GridCell.Tab.1.bottom" timestamp="1586678971821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -201,18 +222,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="880" y="101" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586912256382" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1586950751277">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1587005803408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1586950751277" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1587005803408" />
     <state x="1127" y="278" width="626" height="490" key="find.popup" timestamp="1586912100450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1127" y="278" width="626" height="490" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586912100450" />
-    <state x="669" y="221" key="new project wizard" timestamp="1586950012653">
+    <state x="669" y="221" key="new project wizard" timestamp="1587001587623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586950012653" />
+    <state x="669" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587001587623" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586950476020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
